@@ -18,8 +18,9 @@ img {
 }
 
 .container-fixed {
-  width: 100%;
+  width: 80%;
   text-align: center;
+  margin-left: 10%;
 }
 
 .help-block {
@@ -66,12 +67,14 @@ img {
 
   #artist {
     display: block;
+    font-weight: bold;
     color: #75C969;
   }
 
   #name {
     display: block;
     color: #FFFFF6;
+    font-size: 0.8em;
   }
 
   .playing #artist {
