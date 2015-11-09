@@ -35,7 +35,7 @@
 		<div class="container-fixed">
 			<p ng-show="tracks.length>0" class="help-block">Click to Sample</p>
 			<div ng-class="track.preview_url == currentSong ? 'playing' : ''"  ng-repeat="track in tracks" class="col-xs-3 img">
-				<p> <text id="artist">{{track.artists[0].name}}</text> <br> {{track.name}}</p>
+				<p> <text id="artist">{{track.artists[0].name}}</text> <text id="name">{{track.name}}</text></p>
 				<img ng-click="play(track.preview_url)" title="{{track.artists[0].name}} - {{track.name}}" src="{{track.album.images[1].url}}"></img>
 			</div>
 		</div>
